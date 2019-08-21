@@ -1,0 +1,15 @@
+<nav>
+  <a href="/">
+    <img src="/assets/images/logo.png" alt="Salve Amazônia logo" class="logo" />
+  </a>
+
+  <ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,66 @@
+---
+---
+
+body {
+  background-color: black;
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.home {
+  background-image: url('/assets/images/bg.png');
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: inline-flex;
+  }
+
+  li {
+    padding-left: 16px;
+    list-style: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+  }
+
+  a.active {
+    font-weight: 900;
+  }
+
+  a:hover, a.active {
+    border-bottom: 4px solid #DDC55D;
+  }
+
+  .logo {
+    height: 48px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 4rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  line-height: 1.25em;
+}
+
+/* Home styles */
+.home-container {
+  padding: 32px 0;
+  text-align: center;
+}

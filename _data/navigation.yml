@@ -1,0 +1,10 @@
+- name: Início
+  link: /
+- name: Informações
+  link: /informacoes.html
+- name: Ações
+  link: /acoes.html
+- name: Mapa
+  link: https://maps.idealist.org/map/salveamazonia
+- name: Participe
+  link: /participe.html
